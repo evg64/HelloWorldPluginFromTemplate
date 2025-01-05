@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.evg64.helloworldpluginfromtemplate</id>
-    <name>HelloWorldPluginFromTemplate</name>
+    <name>HelloWorldFromTemplate</name>
     <vendor>evg64</vendor>
 
     <depends>com.intellij.modules.platform</depends>
@@ -15,4 +15,11 @@
     <applicationListeners>
         <listener class="com.github.evg64.helloworldpluginfromtemplate.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
+
+    <actions>
+        <action
+            id="com.github.evg64.helloworldpluginfromtemplate.actions.SyncProjectAction"
+            class="com.github.evg64.helloworldpluginfromtemplate.actions.SyncProjectAction"
+            text="Sync project" />
+    </actions>
 </idea-plugin>

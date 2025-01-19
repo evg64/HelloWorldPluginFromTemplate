@@ -34,8 +34,8 @@ dependencies {
     testImplementation(libs.junit)
 
     intellijPlatform {
-        androidStudio("2024.2.2.12")
-        plugin("org.jetbrains.android:242.23726.103")
+        androidStudio("2024.1.1.11")
+        plugin("org.jetbrains.android:241.15989.150")
 
         instrumentationTools()
         pluginVerifier()
@@ -47,6 +47,7 @@ dependencies {
 intellijPlatform {
     pluginVerification {
         ides {
+            ide(IntelliJPlatformType.AndroidStudio, "2024.1.1.11")
             ide(IntelliJPlatformType.AndroidStudio, "2024.2.2.12")
         }
     }

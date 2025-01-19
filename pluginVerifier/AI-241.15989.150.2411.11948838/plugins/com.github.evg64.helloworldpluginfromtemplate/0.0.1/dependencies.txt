@@ -1,0 +1,94 @@
+com.github.evg64.helloworldpluginfromtemplate:0.0.1
++--- org.jetbrains.android:241.15989.150.2411.11948838
+|    +--- (failed) module com.intellij.modules.idea (optional): Plugins declaring module 'com.intellij.modules.idea' are not found in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)
+|    +--- JUnit:241.15989.150.2411.11948838
+|    |    +--- com.intellij.java:241.15989.150.2411.11948838
+|    |    |    +--- (failed) module com.intellij.modules.idea.community (optional): Plugins declaring module 'com.intellij.modules.idea.community' are not found in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)
+|    |    |    +--- (failed) com.jetbrains.performancePlugin (optional): Plugin com.jetbrains.performancePlugin doesn't have a build compatible with AI-241.15989.150.2411.11948838 in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)
+|    |    |    +--- com.intellij:241.15989.150.2411.11948838 [declaring module com.intellij.modules.platform]
+|    |    |    +--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.xml]
+|    |    |    +--- (optional) com.intellij.copyright:241.15989.150.2411.11948838
+|    |    |    |    +--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]
+|    |    |    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.xml]
+|    |    |    +--- (optional) com.intellij.platform.images:241.15989.150.2411.11948838
+|    |    |    |    +--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]
+|    |    |    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.xml]
+|    |    |    \--- (optional) training:241.15989.198
+|    |    |         +--- Git4Idea:241.15989.150.2411.11948838
+|    |    |         |    +--- (failed) com.jetbrains.performancePlugin (optional): Plugin com.jetbrains.performancePlugin doesn't have a build compatible with AI-241.15989.150.2411.11948838 in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)
+|    |    |         |    +--- (failed) intellij.platform.ide.newUiOnboarding (module, v2): Plugins declaring module 'intellij.platform.ide.newUiOnboarding' are not found in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)
+|    |    |         |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.vcs]
+|    |    |         \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]
+|    |    \--- (optional) com.intellij.properties:241.15989.150.2411.11948838
+|    |         +--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.xml]
+|    |         \--- (optional) com.intellij.copyright:241.15989.150.2411.11948838 (*)
+|    +--- com.android.tools.idea.smali:241.15989.150.2411.11948838
+|    |    +--- com.intellij.java:241.15989.150.2411.11948838 (*)
+|    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]
+|    +--- com.intellij.gradle:241.15989.150.2411.11948838
+|    |    +--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]
+|    |    \--- (optional) com.intellij.properties:241.15989.150.2411.11948838 (*)
+|    +--- com.intellij.platform.images:241.15989.150.2411.11948838 (*)
+|    +--- com.intellij.properties:241.15989.150.2411.11948838 (*)
+|    +--- intellij.webp:241.15989.150.2411.11948838
+|    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]
+|    +--- org.intellij.groovy:241.15989.150.2411.11948838
+|    |    +--- (failed) ByteCodeViewer (plugin, v2): Plugin ByteCodeViewer is not available in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)
+|    |    +--- (failed) module com.intellij.modules.duplicatesDetector (optional): Plugins declaring module 'com.intellij.modules.duplicatesDetector' are not found in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)
+|    |    +--- (failed) module com.intellij.modules.ultimate (optional): Plugins declaring module 'com.intellij.modules.ultimate' are not found in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)
+|    |    +--- AntSupport:241.14494.158
+|    |    |    +--- com.intellij.properties:241.15989.150.2411.11948838 (*)
+|    |    |    \--- com.intellij.java:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.java]
+|    |    +--- Git4Idea:241.15989.150.2411.11948838 (*)
+|    |    +--- com.intellij.java:241.15989.150.2411.11948838 (*)
+|    |    +--- com.intellij.properties:241.15989.150.2411.11948838 (*)
+|    |    +--- (optional) JUnit:241.15989.150.2411.11948838 (*)
+|    |    +--- (optional) com.intellij.copyright:241.15989.150.2411.11948838 (*)
+|    |    +--- (optional) org.intellij.intelliLang:241.15989.150.2411.11948838
+|    |    |    +--- (optional) XPathView:241.15989.65
+|    |    |    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.xml]
+|    |    |    +--- (optional) com.intellij.java:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.java]
+|    |    |    \--- (optional) com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.xml]
+|    |    \--- (optional) com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.structuralsearch]
+|    +--- org.intellij.intelliLang:241.15989.150.2411.11948838 (*)
+|    +--- org.jetbrains.kotlin:241.15989.150.2411.11948838
+|    |    +--- (failed) com.jetbrains.performancePlugin (optional): Plugin com.jetbrains.performancePlugin doesn't have a build compatible with AI-241.15989.150.2411.11948838 in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)
+|    |    +--- com.intellij.java:241.15989.150.2411.11948838 (*)
+|    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.androidstudio]
+|    +--- org.jetbrains.plugins.gradle:241.15989.150.2411.11948838
+|    |    +--- (failed) com.jetbrains.performancePlugin (optional): Plugin com.jetbrains.performancePlugin doesn't have a build compatible with AI-241.15989.150.2411.11948838 in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)
+|    |    +--- (failed) org.jetbrains.idea.maven (optional): Plugin org.jetbrains.idea.maven is not available in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)
+|    |    +--- com.intellij.gradle:241.15989.150.2411.11948838 (*)
+|    |    +--- com.intellij.java:241.15989.150.2411.11948838 (*)
+|    |    +--- (optional) Coverage:241.15989.150.2411.11948838
+|    |    |    +--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.coverage]
+|    |    |    +--- com.intellij.java:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.java]
+|    |    |    +--- (optional) JUnit:241.15989.150.2411.11948838 (*)
+|    |    |    \--- (optional) TestNG-J:241.15989.150.2411.11948838
+|    |    |         +--- com.intellij.java:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.java]
+|    |    |         \--- (optional) org.intellij.intelliLang:241.15989.150.2411.11948838 (*)
+|    |    +--- (optional) com.intellij.completion.ml.ranking:241.15989.150.2411.11948838
+|    |    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]
+|    |    +--- (optional) com.intellij.properties:241.15989.150.2411.11948838 (*)
+|    |    +--- (optional) org.intellij.groovy:241.15989.150.2411.11948838 (*)
+|    |    \--- (optional) org.toml.lang:241.15989.150.2411.11948838
+|    |         +--- tanvd.grazi:241.14494.150
+|    |         |    +--- com.intellij.java:241.15989.150.2411.11948838 (*)
+|    |         |    +--- com.intellij.properties:241.15989.150.2411.11948838 (*)
+|    |         |    +--- org.intellij.plugins.markdown:241.15989.150.2411.11948838
+|    |         |    |    +--- com.intellij.platform.images:241.15989.150.2411.11948838 (*)
+|    |         |    |    +--- org.intellij.intelliLang:241.15989.150.2411.11948838 (*)
+|    |         |    |    +--- org.jetbrains.plugins.yaml:241.15989.150.2411.11948838
+|    |         |    |    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]
+|    |         |    |    +--- org.toml.lang:241.15989.150.2411.11948838 (*)
+|    |         |    |    +--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.json]
+|    |         |    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]
+|    |         |    +--- org.jetbrains.plugins.yaml:241.15989.150.2411.11948838 (*)
+|    |         |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.json]
+|    |         +--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.json]
+|    |         \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]
+|    +--- org.toml.lang:241.15989.150.2411.11948838 (*)
+|    +--- com.intellij.java:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.java]
+|    \--- (optional) com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.androidstudio]
++--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.androidstudio]
+\--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.platform]

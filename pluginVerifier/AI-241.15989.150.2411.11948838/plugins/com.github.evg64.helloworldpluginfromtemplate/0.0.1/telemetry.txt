@@ -1,0 +1,9 @@
+Plugin ID: com.github.evg64.helloworldpluginfromtemplate
+Plugin Version: 0.0.1
+Descriptor parsed in: 18 ms
+Descriptor parsed (raw ms): 18
+Plugin size (bytes): 11821
+Verified classes in plugin artifact: 7
+Verification time: 14 s 83 ms
+Verification time (raw ms): 14083
+

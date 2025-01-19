@@ -1,0 +1,261 @@
+<html>
+<head>
+<title>
+Verification result AI-241.15989.150.2411.11948838
+</title>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script src="https://code.jquery.com/ui/1.9.2/jquery-ui.min.js" type="text/javascript">
+</script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" type="text/css"/>
+<style type="text/css">
+.shortDescription {
+    padding: 2px;
+}
+
+.updates div div:nth-child(odd) {
+    background: #eee;
+}
+
+.uMarker, .pMarker {
+    white-space: pre;
+    font-weight: bold;
+}
+
+.updateOk .uMarker {
+    background: #0f0;
+    color: #0f0;
+}
+
+.updateHasProblems .uMarker {
+    background: #f00;
+    color: #f00;
+}
+
+.warnings .uMarker {
+    background: #ffeb00;
+    color: #ffeb00;
+}
+
+.missingDeps .uMarker {
+    background: #7fd8ff;
+    color: #7fd8ff;
+}
+
+.badPlugin .uMarker {
+    background: #5f3103;
+    color: #5f3103;
+}
+
+.notFound .uMarker {
+    background: #e5c2ef;
+    color: #e5c2ef;
+}
+
+.failedToDownload .uMarker {
+    background: #ffa87a;
+    color: #ffa87a;
+}
+
+.excluded .uMarker {
+    background: #888 !important;
+}
+
+.problematicOnly .excluded, .problematicOnly .updateOk, .problematicOnly .pluginOk {
+    display: none;
+}
+
+.pluginOk .pMarker {
+    background: #0f0;
+    color: #0f0;
+}
+
+.pluginHasProblems .pMarker {
+    background: #f00;
+    color: #f00;
+}
+
+.warnings .pMarker {
+    background: #ffeb00;
+    color: #ffeb00;
+}
+
+.missingDeps .pMarker {
+    background: #7fd8ff;
+    color: #7fd8ff;
+}
+
+.badPlugin .pMarker {
+    background: #5f3103;
+    color: #5f3103;
+}
+
+.notFound .pMarker {
+    background: #e5c2ef;
+    color: #e5c2ef;
+}
+
+.failedToDownload .pMarker {
+    background: #ffa87a;
+    color: #ffa87a;
+}
+
+.shortDescription a {
+    color: #2B587A !important;
+}
+
+.longDescription {
+    display: none;
+    margin-left: 100px;
+    padding: 2px;
+}
+</style>
+</head>
+<body>
+<h2>
+AI-241.15989.150.2411.11948838</h2>
+<div class="plugin pluginOk">
+<h3>
+<span class="pMarker">
+    </span>
+com.github.evg64.helloworldpluginfromtemplate</h3>
+<div >
+<div class="update updateOk">
+<h3>
+<span class="uMarker">
+    </span>
+0.0.1<small>
+com.github.evg64.helloworldpluginfromtemplate:0.0.1</small>
+<small>
+Compatible</small>
+</h3>
+<div >
+<div class="shortDescription">
+Dependencies used on verification <a href="#" class="detailsLink">
+details</a>
+<div class="longDescription">
+com.github.evg64.helloworldpluginfromtemplate:0.0.1<br/>
++--- org.jetbrains.android:241.15989.150.2411.11948838<br/>
+|    +--- (failed) module com.intellij.modules.idea (optional): Plugins declaring module 'com.intellij.modules.idea' are not found in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)<br/>
+|    +--- JUnit:241.15989.150.2411.11948838<br/>
+|    |    +--- com.intellij.java:241.15989.150.2411.11948838<br/>
+|    |    |    +--- (failed) module com.intellij.modules.idea.community (optional): Plugins declaring module 'com.intellij.modules.idea.community' are not found in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)<br/>
+|    |    |    +--- (failed) com.jetbrains.performancePlugin (optional): Plugin com.jetbrains.performancePlugin doesn't have a build compatible with AI-241.15989.150.2411.11948838 in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)<br/>
+|    |    |    +--- com.intellij:241.15989.150.2411.11948838 [declaring module com.intellij.modules.platform]<br/>
+|    |    |    +--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.xml]<br/>
+|    |    |    +--- (optional) com.intellij.copyright:241.15989.150.2411.11948838<br/>
+|    |    |    |    +--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]<br/>
+|    |    |    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.xml]<br/>
+|    |    |    +--- (optional) com.intellij.platform.images:241.15989.150.2411.11948838<br/>
+|    |    |    |    +--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]<br/>
+|    |    |    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.xml]<br/>
+|    |    |    \--- (optional) training:241.15989.198<br/>
+|    |    |         +--- Git4Idea:241.15989.150.2411.11948838<br/>
+|    |    |         |    +--- (failed) com.jetbrains.performancePlugin (optional): Plugin com.jetbrains.performancePlugin doesn't have a build compatible with AI-241.15989.150.2411.11948838 in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)<br/>
+|    |    |         |    +--- (failed) intellij.platform.ide.newUiOnboarding (module, v2): Plugins declaring module 'intellij.platform.ide.newUiOnboarding' are not found in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)<br/>
+|    |    |         |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.vcs]<br/>
+|    |    |         \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]<br/>
+|    |    \--- (optional) com.intellij.properties:241.15989.150.2411.11948838<br/>
+|    |         +--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.xml]<br/>
+|    |         \--- (optional) com.intellij.copyright:241.15989.150.2411.11948838 (*)<br/>
+|    +--- com.android.tools.idea.smali:241.15989.150.2411.11948838<br/>
+|    |    +--- com.intellij.java:241.15989.150.2411.11948838 (*)<br/>
+|    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]<br/>
+|    +--- com.intellij.gradle:241.15989.150.2411.11948838<br/>
+|    |    +--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]<br/>
+|    |    \--- (optional) com.intellij.properties:241.15989.150.2411.11948838 (*)<br/>
+|    +--- com.intellij.platform.images:241.15989.150.2411.11948838 (*)<br/>
+|    +--- com.intellij.properties:241.15989.150.2411.11948838 (*)<br/>
+|    +--- intellij.webp:241.15989.150.2411.11948838<br/>
+|    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]<br/>
+|    +--- org.intellij.groovy:241.15989.150.2411.11948838<br/>
+|    |    +--- (failed) ByteCodeViewer (plugin, v2): Plugin ByteCodeViewer is not available in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)<br/>
+|    |    +--- (failed) module com.intellij.modules.duplicatesDetector (optional): Plugins declaring module 'com.intellij.modules.duplicatesDetector' are not found in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)<br/>
+|    |    +--- (failed) module com.intellij.modules.ultimate (optional): Plugins declaring module 'com.intellij.modules.ultimate' are not found in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)<br/>
+|    |    +--- AntSupport:241.14494.158<br/>
+|    |    |    +--- com.intellij.properties:241.15989.150.2411.11948838 (*)<br/>
+|    |    |    \--- com.intellij.java:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.java]<br/>
+|    |    +--- Git4Idea:241.15989.150.2411.11948838 (*)<br/>
+|    |    +--- com.intellij.java:241.15989.150.2411.11948838 (*)<br/>
+|    |    +--- com.intellij.properties:241.15989.150.2411.11948838 (*)<br/>
+|    |    +--- (optional) JUnit:241.15989.150.2411.11948838 (*)<br/>
+|    |    +--- (optional) com.intellij.copyright:241.15989.150.2411.11948838 (*)<br/>
+|    |    +--- (optional) org.intellij.intelliLang:241.15989.150.2411.11948838<br/>
+|    |    |    +--- (optional) XPathView:241.15989.65<br/>
+|    |    |    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.xml]<br/>
+|    |    |    +--- (optional) com.intellij.java:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.java]<br/>
+|    |    |    \--- (optional) com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.xml]<br/>
+|    |    \--- (optional) com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.structuralsearch]<br/>
+|    +--- org.intellij.intelliLang:241.15989.150.2411.11948838 (*)<br/>
+|    +--- org.jetbrains.kotlin:241.15989.150.2411.11948838<br/>
+|    |    +--- (failed) com.jetbrains.performancePlugin (optional): Plugin com.jetbrains.performancePlugin doesn't have a build compatible with AI-241.15989.150.2411.11948838 in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)<br/>
+|    |    +--- com.intellij.java:241.15989.150.2411.11948838 (*)<br/>
+|    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.androidstudio]<br/>
+|    +--- org.jetbrains.plugins.gradle:241.15989.150.2411.11948838<br/>
+|    |    +--- (failed) com.jetbrains.performancePlugin (optional): Plugin com.jetbrains.performancePlugin doesn't have a build compatible with AI-241.15989.150.2411.11948838 in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)<br/>
+|    |    +--- (failed) org.jetbrains.idea.maven (optional): Plugin org.jetbrains.idea.maven is not available in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)<br/>
+|    |    +--- com.intellij.gradle:241.15989.150.2411.11948838 (*)<br/>
+|    |    +--- com.intellij.java:241.15989.150.2411.11948838 (*)<br/>
+|    |    +--- (optional) Coverage:241.15989.150.2411.11948838<br/>
+|    |    |    +--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.coverage]<br/>
+|    |    |    +--- com.intellij.java:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.java]<br/>
+|    |    |    +--- (optional) JUnit:241.15989.150.2411.11948838 (*)<br/>
+|    |    |    \--- (optional) TestNG-J:241.15989.150.2411.11948838<br/>
+|    |    |         +--- com.intellij.java:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.java]<br/>
+|    |    |         \--- (optional) org.intellij.intelliLang:241.15989.150.2411.11948838 (*)<br/>
+|    |    +--- (optional) com.intellij.completion.ml.ranking:241.15989.150.2411.11948838<br/>
+|    |    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]<br/>
+|    |    +--- (optional) com.intellij.properties:241.15989.150.2411.11948838 (*)<br/>
+|    |    +--- (optional) org.intellij.groovy:241.15989.150.2411.11948838 (*)<br/>
+|    |    \--- (optional) org.toml.lang:241.15989.150.2411.11948838<br/>
+|    |         +--- tanvd.grazi:241.14494.150<br/>
+|    |         |    +--- com.intellij.java:241.15989.150.2411.11948838 (*)<br/>
+|    |         |    +--- com.intellij.properties:241.15989.150.2411.11948838 (*)<br/>
+|    |         |    +--- org.intellij.plugins.markdown:241.15989.150.2411.11948838<br/>
+|    |         |    |    +--- com.intellij.platform.images:241.15989.150.2411.11948838 (*)<br/>
+|    |         |    |    +--- org.intellij.intelliLang:241.15989.150.2411.11948838 (*)<br/>
+|    |         |    |    +--- org.jetbrains.plugins.yaml:241.15989.150.2411.11948838<br/>
+|    |         |    |    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]<br/>
+|    |         |    |    +--- org.toml.lang:241.15989.150.2411.11948838 (*)<br/>
+|    |         |    |    +--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.json]<br/>
+|    |         |    |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]<br/>
+|    |         |    +--- org.jetbrains.plugins.yaml:241.15989.150.2411.11948838 (*)<br/>
+|    |         |    \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.json]<br/>
+|    |         +--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.json]<br/>
+|    |         \--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.lang]<br/>
+|    +--- org.toml.lang:241.15989.150.2411.11948838 (*)<br/>
+|    +--- com.intellij.java:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.java]<br/>
+|    \--- (optional) com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.androidstudio]<br/>
++--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.androidstudio]<br/>
+\--- com.intellij:241.15989.150.2411.11948838 (*) [declaring module com.intellij.modules.platform]<br/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script >
+//$( "#tabs" ).tabs();
+$(".plugin").accordion({active: false, collapsible: true, heightStyle: 'content'});
+$(".update").accordion({active: false, collapsible: true, heightStyle: 'content'});
+
+$(".detailsLink").click(function () {
+    var longDiv = $(this).parent().find(".longDescription");
+
+    if (longDiv.css('display') !== 'block') {
+        longDiv.css('display', 'block')
+    } else {
+        longDiv.css('display', 'none')
+    }
+
+    return false
+});
+
+$(".updateHasProblems .uMarker").attr('title', "Problems found");
+$(".excluded .uMarker").attr('title', "Excluded");
+
+$(".pluginHasProblem .pMarker").attr('title', "Problems found");
+$(".pluginOk .pMarker").attr('title', "Excluded");
+</script>
+</body>
+</html>

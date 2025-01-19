@@ -1,0 +1,4 @@
+com.github.evg64.helloworldpluginfromtemplate:0.0.1
++--- (failed) org.jetbrains.android: Plugin org.jetbrains.android doesn't have a build compatible with AI-242.23726.103.2422.12785815 in JetBrains Marketplace https://plugins.jetbrains.com (used for plugin dependencies)
++--- com.intellij:242.23726.103.2422.12785815 [declaring module com.intellij.modules.androidstudio]
+\--- com.intellij:242.23726.103.2422.12785815 (*) [declaring module com.intellij.modules.platform]

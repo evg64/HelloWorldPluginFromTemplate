@@ -1,0 +1,18 @@
+Package 'com.android.tools.idea.gradle' is not found along with its 3 classes.
+Probably the package 'com.android.tools.idea.gradle' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'com.android.tools.idea.gradle' are not resolved:
+  Class com.android.tools.idea.gradle.project.sync.GradleSyncInvoker is referenced in
+    com.github.evg64.helloworldpluginfromtemplate.actions.SyncProjectAction.actionPerformed(AnActionEvent event) : void
+  Class com.android.tools.idea.gradle.project.sync.GradleSyncInvoker.Companion is referenced in
+    com.github.evg64.helloworldpluginfromtemplate.actions.SyncProjectAction.actionPerformed(AnActionEvent event) : void
+  Class com.android.tools.idea.gradle.project.sync.GradleSyncInvokerKt is referenced in
+    com.github.evg64.helloworldpluginfromtemplate.actions.SyncProjectAction.actionPerformed(AnActionEvent event) : void
+
+Package 'com.google.wireless' is not found along with its class com.google.wireless.android.sdk.stats.GradleSyncStats.Trigger.
+Probably the package 'com.google.wireless' belongs to a library or dependency that is not resolved by the checker.
+It is also possible, however, that this package was actually removed from a dependency causing the detected problems. Access to unresolved classes at runtime may lead to **NoSuchClassError**.
+The following classes of 'com.google.wireless' are not resolved:
+  Class com.google.wireless.android.sdk.stats.GradleSyncStats.Trigger is referenced in
+    com.github.evg64.helloworldpluginfromtemplate.actions.SyncProjectAction.actionPerformed(AnActionEvent event) : void
+
